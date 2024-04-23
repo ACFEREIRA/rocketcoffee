@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-url: url(./assets/blur-desktop.png);
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+  font-family: Manrope;
+  /* font-weight: 400 e 700; */
+
+}
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* #home { 
+  border: solid rgb(60, 255, 0) 2px;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 918px;
+  height: 50px;
+
+  /* border: solid red 2px; */
+}
+
+.image_logo img {
+  height: 50px;
+  align-items: center;
+}
+
+.menu{
+  background: inherit;
+  border: none;
+  display: none;
+}
+
+.menu i{
+  color: var(--button);
+  font-size: 1rem;
+}
+
+#home nav ul{
+  display: flex;
+  list-style: none;
+}
+
+#home nav ul li a{
+  text-decoration: none;
+  padding-left: 16px;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button_coffee {
+  background-color: transparent;
+  color: var(--text-color);
+  border: solid var(--button) 2px;
+  padding: 11px 38px;
+  font-size: 11px;
+  font-weight:700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
