@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -11,7 +13,6 @@
   --border-menu-mobile: #A8A8B3;
   --text-color-menu-mobile: #E1E1E6;
   font-family: Manrope;
-  /* font-weight: 400 e 700; */
 
 }
 
@@ -23,12 +24,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 50px;
 }
-
-/* #home { 
-  border: solid rgb(60, 255, 0) 2px;
-} */
 
 header {
   display: flex;
@@ -37,13 +34,11 @@ header {
   margin: 0 auto;
   width: 918px;
   height: 50px;
-
-  /* border: solid red 2px; */
 }
 
 .image_logo img {
-  height: 50px;
-  align-items: center;
+  height: auto;
+  align-items: center; 
 }
 
 .menu{
@@ -54,7 +49,7 @@ header {
 
 .menu i{
   color: var(--button);
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 #home nav ul{
@@ -76,8 +71,33 @@ header {
   border: solid var(--button) 2px;
   padding: 11px 38px;
   font-size: 11px;
-  font-weight:700;
+  font-weight: 700;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
+
+.title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.title p {
+  color: var(--button);
+}
+
+.title span {
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+.imag_coffee {
+  display: flex;
+  flex-direction: flex-end;
+  margin-top: 20px;
+}
+
+.imag_coffee img {
+  max-width: 100%;
+  height: auto;
+}
+
