@@ -29,7 +29,7 @@ body button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
   transition: background-color 0.2s;
 }
 
@@ -136,27 +136,11 @@ nav ul li {
   height: auto;
 }
 
-main {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-}
-
-main h1 {
-  display: none;
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 32px;
-  text-shadow: 0px 4px 4px var(--surface-color-hover)
-}
-
-main .text_mobile {
+.text_mobile {
   display: none;
 }
 
-main .button_mobile {
+.button_mobile {
   display: none;
 }
 
@@ -199,10 +183,16 @@ main .button_mobile {
 
 @media only screen and (max-width: 430px) {
   body {
-    padding-top: 16px;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom center, bottom center;
     background-attachment: fixed, fixed;
+    width: 100vw;
+    height: 90vh;
+    justify-content: space-between;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border); 
   }
 
   .container {
@@ -258,12 +248,10 @@ main .button_mobile {
     padding-left: 3rem;
   }
 
-  
-
   .title {
     margin-top: 60px;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
   }
   
@@ -275,38 +263,22 @@ main .button_mobile {
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
   }
 
-  
-
-  
-
   .menu_mobile i.close {
     width: 18px;
     height: 18px;
   }
 
-  body main {
-    width: 100vw;
-    height: 90vh;
-    justify-content: space-between;
-    margin: 16px auto;
-    padding-top: 18%;
-    padding-bottom: 63%;
-    border-top: 1px solid var(--border);
-  }
-
-  main h1 {
-    display: block;
-  }
-
-  main .text_mobile { 
-    width: 90%;
-    max-width: 800px;
-    display: block;
-    padding-inline-start: 4.7rem;
+  .text_mobile { 
+    font-size: 16px;
+    max-width: 500px;
     text-align: center;
+    color: var(--text-color);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
   }
 
-  main .button_mobile { 
+  .button_mobile { 
     background-color: var(--surface-color);
     color: var(--text-color);
     border: solid var(--button) 2px;
@@ -316,17 +288,12 @@ main .button_mobile {
     border-radius: 5px;
     backdrop-filter: blur(4px);
     -webkit-background-filter: blur(4px);
+    margin: 0 auto;
+    display: block;
   }
 
-  main .button_mobile:focus {
+  .button_mobile:focus {
     transform: scale(1.3);
     background-color: var(--surface-color-hover);
-  }
-
-  button span {
-    font-size: 11px;
-    font-weight: 700;
-    margin-left: 1rem;
-    margin-bottom: 0.2rem;
   }
 }
