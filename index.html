@@ -23,18 +23,30 @@
         <div class="logo_mobile">
           <img src="./assets/logo-mobile.svg" alt="logo rocketseat">
         </div>
-        <button class="menu_mobile">
+        <button class="menu_mobile" onclick="toggleMenu()">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#recompensas">Recompensas</a></li>
-            <li><a href="#giftcards">Gift Cards</a></li>
-            <li><a href="#lojas">Lojas</a></li>
-          </ul>
-        </nav>
+        <!-- Menu Mobile -->
+        <div id="nav_menu" class="menu">
+          <header class="menu_header">
+            <div class="logo_mobile">
+              <img src="./assets/logo-mobile.svg" alt="logo rocketseat">
+            </div>
+            <button class="menu_close_button" onclick="toggleMenu()">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+          </header>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#recompensas">Recompensas</a></li>
+              <li><a href="#giftcards">Gift Cards</a></li>
+              <li><a href="#lojas">Lojas</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Fim do Menu Mobile -->
         <button class="button_coffee">PEGAR MEU CAFÉ</button>
       </header>
     </section>
