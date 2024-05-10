@@ -1,18 +1,11 @@
-// Seleciona os elementos relevantes
-var navMenu = document.getElementById('nav_menu');
-var menuCloseButton = document.querySelector('.menu_close_button');
-var menuMobileButton = document.querySelector('.menu_mobile');
-
-// Adiciona um event listener para abrir o menu mobile
-if (menuMobileButton) {
-  menuMobileButton.addEventListener('click', function () {
-    navMenu.classList.toggle('open');
-  });
-}
-
-// Adiciona um event listener para fechar o menu mobile
-if (menuCloseButton) {
-  menuCloseButton.addEventListener('click', function () {
-    navMenu.classList.remove('open');
-  });
+function toogleMenu() {
+  const menu = document.getElementById('nav_menu');
+  // menu.style.display = 'block';
+  // 1 - verificar se o menu esta aberto
+  // 2 - se estiver aberto: fecha menu
+  // 3 - se fechado: abre
+  if (menu.style.display === 'block') {
+    return menu.style.display = 'none';
+  }
+  menu.style.display = 'block';
 }

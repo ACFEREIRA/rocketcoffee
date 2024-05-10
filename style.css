@@ -180,7 +180,7 @@ nav ul {
     font-size: 60px;
   }
 
-  .menu_mobile:focus + .menu {
+  .menu_mobile .menu {
     display: block;
   }
 
@@ -213,7 +213,6 @@ nav ul {
   .menu_close_button {
     background: inherit;
     border: none;
-    display: block;
   }
 
   .menu_close_button i {
@@ -224,8 +223,8 @@ nav ul {
     color: var(--button);
   }
 
-  .menu_close_button:focus {
-    outline: none;
+  .menu_close_button {
+    display: block;
   }
 
   li a:hover {
