@@ -33,3 +33,7 @@ O desafio foi construir uma homepage para uma marca de café.
 - Adicionar `hover` nos botões.
 
 ## 📺 Responsive test
+
+https://github.com/ACFEREIRA/rocketcoffee/assets/101841293/46b984a5-b3bc-44ca-b115-47822f045a26
+
+
