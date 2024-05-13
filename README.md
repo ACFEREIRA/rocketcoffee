@@ -1,4 +1,4 @@
-<h1 align="center"> Desafios Discover </h1>
+<h1 align="center"> Desafios Discover - RocketCoffee </h1>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -9,6 +9,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <img alt="pagina-rocketcoffee" src="./assets/tela_1.png">
 </p>
 
+<p align="center">
+  <img alt="pagina-rocketcoffee" src="./assets/tela_2.png">
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -16,6 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- Figma
 - Git e Github
 
 ## 💻 Projeto
@@ -27,3 +32,9 @@ O desafio foi construir uma homepage para uma marca de café.
 - Deixar o layout responsivo conforme o Figma.
 - Na versão mobile, ao clicar no menu hamburger deverá exibir um menu responsivo conforme layout do Figma.
 - Adicionar `hover` nos botões.
+
+## 📺 Responsive test
+
+<p align="center">
+  <video alt="video demonstrativo responsivo" src="./assets/IMG_9015.MOV">
+</p>
