@@ -5,13 +5,12 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <a href="https://efficient-sloth-d85.notion.site/b0b109c64d0a4a8eb4de547de18fa04d?v=dd9d2f6b0f6542d69807f41312f4116d">Uma série de desafios do básicos ao avançado para que você possa praticar seus conhecimentos.</a>
 </p>
 
+
+
 <p align="center">
   <img alt="pagina-rocketcoffee" src="./assets/tela_1.png">
 </p>
 
-<p align="center">
-  <img alt="pagina-rocketcoffee" src="./assets/tela_2.png">
-</p>
 
 ## 🚀 Tecnologias
 
@@ -34,7 +33,3 @@ O desafio foi construir uma homepage para uma marca de café.
 - Adicionar `hover` nos botões.
 
 ## 📺 Responsive test
-
-<p align="center">
-  <video alt="video demonstrativo responsivo" src="./assets/IMG_9015.MOV">
-</p>
